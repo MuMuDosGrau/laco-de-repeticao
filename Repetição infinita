@@ -1,0 +1,29 @@
+Infinito.txt
+//Laço de repetção: 
+
+var acertouNome = false
+
+while (!acertouNome) {
+
+const nome = prompt("digite o nome de um familiar seu: ")
+switch (nome) { 
+
+  case "Pedro": {
+    acertouNome = true
+    console.log("Você acertou! Meu tio se chama Pedro");
+    break;
+  }
+  
+  case "Lauro":{
+    acertouNome = true
+    console.log("Você acertou! Lauro é meu primo.");
+    break;
+  }
+
+  default:
+  alert(`Errou seu bobão.
+${nome} não é meu parente`)
+
+}
+
+}
