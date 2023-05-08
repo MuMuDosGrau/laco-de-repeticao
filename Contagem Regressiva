@@ -1,0 +1,8 @@
+contagemRegresiva.txt
+var numero = 10
+var fim = 1
+
+while (fim <= numero) {
+  console.log(numero)
+  numero--
+} 
